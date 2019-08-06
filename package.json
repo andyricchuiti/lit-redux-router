@@ -23,6 +23,7 @@
   "module": "dist/lit-redux-router.js",
   "scripts": {
     "build": "del dist && tsc && rollup -c",
+    "build:docs": "webpack",
     "check-types": "tsc --noEmit -p tsconfig.all.json",
     "lint": "lit-analyzer src --strict && eslint . --ext ts,js",
     "size": "bundlesize",
@@ -67,6 +68,7 @@
     "lit-analyzer": "^1.1.8",
     "lit-element": "^2.1.0",
     "lit-html": "^1.1.0",
+    "prismjs": "^1.17.1",
     "pwa-helpers": "^0.9.1",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",

@@ -20,5 +20,6 @@ coverage
 
 # build and temp folders
 dist
+docs
 
 !demo/**

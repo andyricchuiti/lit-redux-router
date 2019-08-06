@@ -20,6 +20,13 @@
       "rules": {
         "@typescript-eslint/no-require-imports": "off"
       }
+    },
+    {
+      "files": ["docs/**"],
+      "rules": {
+        "import/extensions": "off",
+        "import/no-unresolved": "off"
+      }
     }
   ],
   "rules": {
