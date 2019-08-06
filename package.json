@@ -43,6 +43,8 @@
     "@babel/preset-typescript": "^7.3.3",
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
+    "@material/mwc-icon-button": "^0.6.0",
+    "@material/mwc-top-app-bar": "^0.6.0",
     "@types/jest": "^24.0.18",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
